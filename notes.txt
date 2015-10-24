@@ -6,8 +6,20 @@ Data files:
   - Pusum12a.csv [summary] 
   - Puout12a.csv [outlets]
   - Pupld12a.csv [library data]
+	POPU_LSA - population of local service area
+	TOTINCM - total income
+	BKVOL - print volumes
+	TOTCIRC - total circulation
 - pupld12a_geojson.zip ->
   - pupld12a.geojson        
   - puout12a.geojson
 - fy2012_pls_data_file_documentation.pdf [documentation]
 
+
+Collect data from source
+Read documentation file to determine available properties
+Some quick plots in python with pandas/matplotlib - plot population vs income/bookvolume
+cartodb - geolocated data plotted with size bubbles representing book volume
+Calculate per capita income, calculate state averages
+??? plot state literacy versus per capita library income
+take state literacy data and make a map of... - color coded map of state literacy
