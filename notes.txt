@@ -1,0 +1,13 @@
+Data source:
+- http://www.imls.gov/research/pls_data_files.aspx
+
+Data files:
+- pupld12a_csv.zip -> 
+  - Pusum12a.csv [summary] 
+  - Puout12a.csv [outlets]
+  - Pupld12a.csv [library data]
+- pupld12a_geojson.zip ->
+  - pupld12a.geojson        
+  - puout12a.geojson
+- fy2012_pls_data_file_documentation.pdf [documentation]
+
